@@ -44,6 +44,7 @@ Entre as novas tecnologias aprendidas está o servidor Tomcat que foi bastante i
 - CSS
 - JS
 
-
+## Autor
+Átila Esquivel Macedo
 
 
