@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Novo Jogador</title>
+        <link rel="icon" href="Images/IconeBola.png">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+<body>
+    <h1>Adicionar Novo Jogador</h1>
+    <div id="formularioNovoJogador">
+        <form name="frmNovoJogador" action="enviar">
+            <table>
+                <tr>
+                    <td class="labelForm"> Nome:</td>
+                    <td><input type="text" name="nomeJogador" placeholder="Nome do Jogador" class="boxL"></td>
+                </tr>
+                <tr>
+                    <td class="labelForm"> Idade:</td>
+                    <td><input type="text" name="idadeJogador" placeholder="Idade" class="boxS"></td>
+                </tr>
+                <tr>
+                    <td class="labelForm"> Nacionalidade:</td>
+                    <td><input type="text" name="nacionalidadeJogador" placeholder="Nacionalidade do Jogador" class="boxL"></td>
+                </tr>
+                <tr>
+                    <td class="labelForm"> Altura:</td>
+                    <td><input type="text" name="alturaJogador" placeholder="Altura" class="boxS"></td>
+                </tr>
+                <tr>
+                    <td class="labelForm"> Posição:</td>
+                    <td><input type="text"name="posicaoJogador" placeholder="Posição" class="boxS"></td>
+                </tr>
+                <tr> 
+                    <td class="labelForm"> Clube:</td>
+                    <td><input type="text" name="clubeJogador" placeholder="Clube Do Jogador" class="boxL"></td>
+                </tr>
+                <tr>
+                    <td class="labelForm"> Descrição:</td>
+                    <td><textarea class="areaDescricao" name="descricaoJogador" id="descricaoJogador" cols="30" rows="10" placeholder="Descrição Do Jogador"></textarea></td>
+                </tr>
+
+            </table>
+
+            <input type="button" name="salvar" value="Salvar Jogador" class="BotaoMain" onclick="validar()">
+        </form>
+    </div>
+
+    <script src="Scripts/Validador.js"></script>
+</body>
+</html>
