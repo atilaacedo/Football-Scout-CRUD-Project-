@@ -1,5 +1,13 @@
 package com.scoutplayers.controller;
 
-public class TimeController {
+import jakarta.servlet.http.HttpServlet;
 
+public class TimeController extends HttpServlet{
+
+	
+	private static final long serialVersionUID = 1L;
+
+	
+	
+	
 }
