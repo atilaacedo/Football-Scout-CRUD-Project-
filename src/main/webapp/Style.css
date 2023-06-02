@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap');
+
+body{
+    font-family: 'Sono', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    background-color:  #3E705A;
+    color: #eee8aa;
+
+    
+}
+h1{
+    color: #eee8aa;
+    text-align: center;
+}
+
+.BotaoMain{
+    text-decoration: none;
+    background-color: #323232;
+    padding: 5px 10px 5px 10px;
+    color:  #eee8aa;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+.boxL{
+    width: 320px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #eee8aa;;
+    border-radius: 5px;
+}
+
+.boxS{
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #eee8aa;;
+    border-radius: 5px;
+}
+
+#boxId{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+
+#tabelaJogadores{
+    margin-top: 30px;
+}
+
+#tabelaJogadores th{
+	font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color:#3E705A;
+    color:e0d666;
+}
+#tabelaJogadores th a{
+	text-decoration: none;
+	color:  #eee8aa;
+}
+
+#tabelaJogadores td{
+	border: 1px solid #ddd;
+	padding:10px;
+}
+
+.BotaoExcluir{
+	text-decoration: none;
+    background-color: #d51213;
+    padding: 5px 10px 5px 10px;
+    color:  #eee8aa;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
